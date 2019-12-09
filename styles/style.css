@@ -1,0 +1,28 @@
+@media (max-width: 1367px){
+
+  #main-doc {
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+    grid-template-areas:
+      "advert content"
+      "advert content"
+      "advert content";
+      
+  }
+  
+  #navbar {
+    grid-area: advert;
+    background-color: PaleGreen;
+    
+  }
+  
+  .content {
+    grid-area: content;
+    background-color: Pink;
+  }
+
+}
